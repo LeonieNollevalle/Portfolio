@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "tiny_5x3300";
+  src: url("../asset/font/tiny5x3-300-webfont.woff2") format("woff2"),
+    url("../asset/font/tiny5x3-300-webfont.woff") format("woff"),
+    url("../asset/font/tiny5x3-300-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mattone150';
+  src: url('../asset/font/mattone-150-webfont.woff2') format('woff2'),
+       url('../asset/font/mattone-150-webfont.woff') format('woff'),
+       url('../asset/font/mattone-150-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}

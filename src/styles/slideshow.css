@@ -1,0 +1,172 @@
+@media screen and (min-width:800px){
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  border-radius: 50px;
+  background-color: black;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: transparent;
+  text-align: center;
+}
+
+.react-slideshow-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+.react-slideshow-container .default-nav:first-of-type {
+  margin-right: -30px;
+  border-right: 0;
+  border-top: 0;
+}
+
+.react-slideshow-container .default-nav {
+  height: 30px;
+  background: transparent;
+  width: 30px;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+  color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.react-slideshow-container .default-nav {
+  height: 30px;
+  background: transparent;
+  width: 30px;
+  border: 0;
+  text-align: center;
+  cursor: pointer;
+  color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.react-slideshow-container .nav {
+  z-index: 10;
+}
+
+.react-slideshow-wrapper.slide {
+  width: 40vw;
+  overflow: hidden;
+}
+
+.react-slideshow-wrapper .images-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: contain;
+}
+
+.react-slideshow-container .default-nav:first-of-type svg {
+  fill:white;
+}
+.react-slideshow-container .default-nav:last-of-type svg {
+  fill:white;
+}
+
+}
+
+
+@media screen and (max-width:800px){
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: black;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: transparent;
+    text-align: center;
+  }
+  
+  .react-slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 0px;
+  }
+  .react-slideshow-container .default-nav:first-of-type {
+    margin-right: -30px;
+    border-right: 0;
+    border-top: 0;
+  }
+  
+  .react-slideshow-container .default-nav {
+    height: 30px;
+    background: transparent;
+    width: 30px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .react-slideshow-container .default-nav {
+    height: 30px;
+    background: transparent;
+    width: 30px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    color: transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .react-slideshow-container .nav {
+    z-index: 10;
+  }
+  
+  .react-slideshow-wrapper.slide {
+    width: 80vw;
+    overflow: hidden;
+  }
+  
+  .react-slideshow-wrapper .images-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: contain;
+  }
+  
+  .react-slideshow-container .default-nav:first-of-type svg {
+    fill:white;
+  }
+  .react-slideshow-container .default-nav:last-of-type svg {
+    fill:white;
+  }
+  
+  }

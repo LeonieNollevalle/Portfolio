@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './containers/Home.jsx';
+import About from './containers/About.jsx';
+import {
+	Routes,
+  Route,
+} 
+from "react-router-dom";
+import Éditions from './containers/Éditions.jsx';
+import Interface from './containers/Interface.jsx';
+import Typographie from './containers/Typographie.jsx';
+import Identite from './containers/Identite.jsx';
+import Motion from './containers/Motion.jsx';
+import Lab from './containers/Lab.jsx';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+<Routes>
+		<Route path="/Lab" element={<Lab />} />
+		<Route path="/Motions" element={<Motion />} />
+		<Route path="/Identite" element={<Identite />} />
+		<Route path="/Typographie" element={<Typographie />} />
+    <Route path="/Interface" element={<Interface/>} />
+    <Route path="/Editions" element={<Éditions />} />
+	  <Route path="/about" element={<About />} />
+    <Route exact path="/" element={<Home />} />
+</Routes>
+
     </div>
   );
 }
