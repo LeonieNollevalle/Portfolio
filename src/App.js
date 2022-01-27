@@ -11,12 +11,13 @@ import Typographie from './containers/Typographie.jsx';
 import Identite from './containers/Identite.jsx';
 import Motion from './containers/Motion.jsx';
 import Lab from './containers/Lab.jsx';
-
+import PopUpImage from './components/popUpImage.jsx';
 
 function App() {
   return (
     <div className="App">
-    
+       <PopUpImage/> 
+
 <Routes>
 		<Route path="/Lab" element={<Lab />} />
 		<Route path="/Motions" element={<Motion />} />

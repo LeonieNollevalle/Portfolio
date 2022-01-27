@@ -1,19 +1,13 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import '../styles/Projet.css';
 import '../styles/index.css';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
 import "../styles/slideshow.css";
-import PopUpImage from '../components/popUpImage';
+import PopUpImgContext from '../context/contextPopUpimg';
 
 const Projet = (data) => {
-const [picture, setPicture] = React.useState(false);
-const [source, setSource] = React.useState(false);
-
-const handleClick = (src = null) => {
-  setPicture(!picture)
-  console.log(src)
-}
+  const { setSource, setPicture, picture } = useContext(PopUpImgContext);
   return (
     <div className="container-projet">
     <div className="container-title">
@@ -35,11 +29,10 @@ const handleClick = (src = null) => {
          : null}
     { data.data.images.map((image) =>
           <div className="each-slide" onClick={() => setSource(image)}>
-            <div style={{'backgroundImage': `url(${image})`}} onClick={handleClick}>
+            <div style={{'backgroundImage': `url(${image})`}} onClick={()=> setPicture(!picture)}>
             </div>
           </div> )}
         </Slide> 
-        {picture ? <PopUpImage setPicture={setPicture} picture={picture} source={source}/>: null}
         </div>
    </div>
   )

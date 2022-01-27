@@ -81,8 +81,9 @@ const Catégorie = () => {
      <p> Interface </p>
     </button>
     <iframe title="interface" src='https://my.spline.design/accueil-96cbf2a8c9c0f2a851055e77d9ed2868/' frameborder='0' width='100%' height='100%'></iframe>    </div>
+
    {Interfaces.map((Interfaces, index)=>(
-    <Projet key={index} data={Interfaces} />
+    <Projet key={index} data={Interfaces}/>
    ))}
    <Footer/>
     </div>

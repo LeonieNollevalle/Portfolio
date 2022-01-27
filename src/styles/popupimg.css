@@ -1,28 +1,36 @@
 .container-popupimg{
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
-  background-color: #000000;
-  z-index: 40;
-  overflow: hidden;
+  background-color: #0000009f;
+  z-index: 100;
 }
-
+.container-close{
+  display: none;
+}
 .container-popupimg img {
   position: absolute;
   z-index: 50;
-  width: 80%;
-  height: auto;
+  width: auto;
+  height: 80vh;
 }
 
 .container-popupimg p {
   cursor: pointer;
-  width: 100%;
+  width: 96%;
   color: white;
   font-size: 20px;
   padding-top: 50px;
   padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  z-index: 60;
 }
 
 .container-cross{
@@ -43,3 +51,4 @@
   justify-content: center;
   align-items: center;
 }
+
