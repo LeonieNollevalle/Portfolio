@@ -40,8 +40,8 @@ font-family: 'mattone150';
 color: white;
 font-size: 30px;
 width: 100%;
-padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 0px;
+padding-top: 0px;
 
 border-bottom: 2px solid white;
 }
@@ -51,8 +51,8 @@ font-family: 'mattone150';
 color: white;
 font-size: 30px;
 width: 100%;
-padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 0px;
+padding-top: 0px;
 border-bottom: 2px solid white;
 
 }
@@ -125,6 +125,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+.link{
+  margin: 0;
+  padding-bottom: 10px;
+  width: 100%;
 }
 }
 
@@ -169,8 +174,8 @@ font-family: 'mattone150';
 color: white;
 font-size: 30px;
 width: 100%;
-padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 0px;
+padding-top: 0px;
 
 border-bottom: 2px solid white;
 }
@@ -180,8 +185,8 @@ font-family: 'mattone150';
 color: white;
 font-size: 30px;
 width: 100%;
-padding-bottom: 10px;
-padding-top: 10px;
+padding-bottom: 0px;
+padding-top: 0px;
 border-bottom: 2px solid white;
 
 }
@@ -254,5 +259,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+}
+.link{
+  margin: 0;
+  padding-bottom: 10px;
+  width: 100%;
 } 
 }
