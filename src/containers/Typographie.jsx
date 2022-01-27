@@ -2,14 +2,14 @@ import React from 'react';
 import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
-
+import Footer from '../components/Footer';
 const typographies  = [
   {
     titre:"GarageType",
     date:2020,
     catégorie:"Workshop",
     technique:"Esquisse numérique",
-    descritpion:"Workshop confiné, où il nous a été demandé de choisir un lieu dans notre logement afin d’en ressortir des modules qui nous ont par la suite servi a créer des grilles modulaires pour finalement réaliser des caractères modulaires.",
+    descritpion:"Workshop confiné, où il nous a été demandé de choisir un lieu dans notre logement afin d’en ressortir des modules qui nous ont par la suite servis à créer des grilles modulaires pour finalement réaliser des caractères modulaires.",
     images:["https://freight.cargo.site/t/original/i/e99125962a4b9d4699d7184f1f655ab16ee8a6455c25a555519855c10dd09038/IMG_8364.jpg",
   "https://freight.cargo.site/t/original/i/23d5852b6cfc7eecd59d635251ddc5b18ab681d51e9c27520a3ccb0dcff9ae11/YEAH.jpg",
 "https://freight.cargo.site/t/original/i/c5d1afc61e9fc15d2df3022e5bc845f94edc9f297ba51c7eb38645beb5357b9e/mockup7.jpg",
@@ -27,7 +27,7 @@ const typographies  = [
     date:2021,
     catégorie:"Workshop",
     technique:"Esquisse numérique",
-    descritpion:"Sur la témathique liberticide. Il nous a été demandé de concevoir un ensemble de caractère afin de composé des slogant avec ces derniers. Ici la thématique à été traiter sous l'angle du football. Un lieu liberticide pour le genre car centré sur la fraternité d'avantage que sur l'inclusivité. ",
+    descritpion:"Sur la thématique liberticide. Il nous a été demandé de concevoir un ensemble de caractères afin de composer des slogans avec ces derniers. Ici la thématique à été traitée sous l'angle du football. Un lieu liberticide pour le genre car centré sur la fraternité davantage que sur l'inclusivité.",
     images:["https://freight.cargo.site/t/original/i/3686fdc6f7a963a5b191caf954bb021c32f3052f888e5d41350973f83c9d39ac/A35e.jpg",
   "https://freight.cargo.site/t/original/i/a67832e8e76e9ebfccb9a3aca86b962f2bdbea71191dbeb06304809cc1cc0323/Precomp--1_1.gif",
 "https://freight.cargo.site/t/original/i/2114359c4bace1a505ef8eef20a0a76529ffe2c6523190587e586ca6b8b372b6/motify-09.jpg",
@@ -53,7 +53,7 @@ const Catégorie = () => {
    {typographies.map((typographies, index)=>(
     <Projet key={index} data={typographies} />
    ))}
-   
+   <Footer/>
     </div>
   )
 }

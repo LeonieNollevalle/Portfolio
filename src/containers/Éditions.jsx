@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
+import Footer from '../components/Footer';
 const editions = [
   {
     titre:"Closer",
@@ -23,7 +24,7 @@ const editions = [
     date:2021,
     catégorie:"Edition",
     technique:"Impression laser A4 plié",
-    descritpion:`Sur un thème Ranger, trier, classer, il nous a été demandé de prélever des éléments de textes afin de les ranger les trier les classer. J’ai choisi de travailler à partir de la ponctuation; le spectateur se retrouve sans voix, le silence est la réponse apportée au classement de ce texte.`,
+    descritpion:"Sur un thème Ranger, trier, classer, il nous a été demandé de prélever des éléments de textes afin de les ranger, les trier et les classer. J’ai choisi de travailler à partir de la ponctuation; le spectateur se retrouve sans voix, le silence est la réponse apportée au classement de ce texte.",
     images:["https://freight.cargo.site/t/original/i/2524636c51daec6c0d196db1a2b1e641e45a76d000562671ffd9b9138276e883/Scan.jpg",
     "https://freight.cargo.site/t/original/i/131b5c14f3323fe3886f3fe83434a0ff9ceeb6c0b3bd7adace7c81d9596b4e10/Scan-14.jpg",
     "https://freight.cargo.site/t/original/i/f3a50de30e8a90f192e1deb90d3d0855d67fbe9d2eae2d47bdd9b2cbc116f4eb/Scan-12.jpg",
@@ -90,6 +91,7 @@ const Catégorie = () => {
    {editions.map((edition, index)=>(
     <Projet key={index} data={edition} />
    ))}
+   <Footer/>
     </div>
   )
 }

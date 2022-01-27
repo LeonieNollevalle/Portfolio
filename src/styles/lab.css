@@ -3,7 +3,7 @@
 .container-lab{ 
   width: 100vw;
   height: auto;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(180, 180, 180);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,6 +16,11 @@
   height:300px;
   border-radius: 20px;
 }
+.container-lab video{
+  height:auto;
+  width: 20vw;
+  border-radius: 20px;
+}
 }
 
 @media screen and (max-width:800px){
@@ -23,7 +28,7 @@
   .container-lab{ 
     width: auto;
     height: auto;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(180, 180, 180);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -34,6 +39,11 @@
     padding-top: 100px;
   }
   .container-lab img{
+    width: 80vw;
+    height:auto;
+    border-radius: 20px;
+  }
+  .container-lab video{
     width: 80vw;
     height:auto;
     border-radius: 20px;

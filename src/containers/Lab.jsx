@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/lab.css';
 import Menus from '../components/Menus';
-
+import Footer from '../components/Footer';
 const lab  = ["https://freight.cargo.site/w/800/q/75/i/0b71a390ffcc1b8d5eb02ef0810c4db1491aa46b0dda1e1eb9c18d4229b81313/logo.jpg",
 "https://freight.cargo.site/w/800/q/75/i/9db959fe76437d612e0a951fd1cfcd865adb8ddb8d169eacf21471aa2680f623/pochette.jpg",
 "https://freight.cargo.site/w/800/q/75/i/0c259b1b496cf510ceb6c1fd1b9e3f152629706f6e35721875e1e456fb4cb996/Stickers.jpg",
@@ -43,6 +43,7 @@ const Catégorie = () => {
    <video src={labvid} width="15%"  height="15%" controls></video>
 
    </div>
+   <Footer/>
     </div>
   )
 }

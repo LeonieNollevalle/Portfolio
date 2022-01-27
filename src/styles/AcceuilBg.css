@@ -28,8 +28,8 @@ body {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   padding: 0px;
   margin: 0px;
   margin: 1%;
@@ -45,7 +45,7 @@ body {
 
  .container-btn-home{
    width: 100vw;
-   height: 100vh;
+   height: 80vh;
    position: absolute;
    z-index: 30;
    display: grid;
@@ -168,11 +168,10 @@ body {
     width: 100%;
     word-break: break-all;
     line-height: 0.6em;
-    font-size: 170px;
+    font-size: 150px;
     letter-spacing: 2;
     text-shadow: black 3px 0 10px;  
     color: black;
-  
   
   }
   
@@ -181,11 +180,12 @@ body {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
     margin: 0px;
-    margin: 1%;
+    overflow: hidden;
+
   }
   
   
@@ -194,6 +194,8 @@ body {
     width: 100vw;
     padding: 30px;
     margin: 0px;
+    margin-top: 5vh;
+
   }
   
    .container-btn-home{
@@ -202,33 +204,31 @@ body {
      position: absolute;
      z-index: 30;
      display: grid;
-     grid-template-columns: 30% 30% 30%;
-     grid-template-rows:22.5% 22.5% 22.5% 22.5%;
+     grid-template-columns: 24% 24% 24% 24%;
+     grid-template-rows: 16% 16% 16% 16% 16% 16% ;
      justify-items: stretch;
-     gap: 2%;
-     writing-mode: vertical-lr;
+     margin: 3%;
+     grid-gap: 1%;
+     margin-top: 10vh;
    }
   
    .container-btn-home button {
     border: none;
     width: auto;
     height: auto;
-    border-radius: 200px;
+    border-radius: 80px;
     box-shadow: 1px 0px 1px 0px rgb(48, 216, 14);
     background: inherit;
     backdrop-filter: blur(10px);
-    width: auto;
-    height: auto;
-    writing-mode: vertical-lr;
+    
 
    }
    .container-btn-home button {
     color: white;
     font-family: 'mattone150';    
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 2%;
     padding-right: 2%;
-    writing-mode: vertical-lr;
 
    }
    .container-btn-home button:hover {
@@ -240,12 +240,12 @@ body {
    .container-btn-home button p {
     color: white;
     font-family: 'mattone150';    
-    font-size: 40px;
-    writing-mode: vertical-lr;
+    font-size: 30px;
     text-decoration: none;
    }
   
    .btn-refresh{
+    font-size: 50px;
     grid-column-start: 1;
     grid-column-end: 2; 
     grid-row-start: 1;
@@ -256,7 +256,7 @@ body {
   
    .btn-Motion{
     grid-column-start:  3;
-    grid-column-end:  4; 
+    grid-column-end:  5; 
     grid-row-start: 2;
     grid-row-end: 3; 
    
@@ -277,8 +277,8 @@ body {
   }
   
   .btn-Lab{
-    grid-column-start: 1;
-    grid-column-end: 2; 
+    grid-column-start: 4;
+    grid-column-end: 5; 
     grid-row-start: 3;
     grid-row-end: 4; 
    
@@ -286,20 +286,20 @@ body {
   
   .btn-Typographie{
     grid-column-start: 2;
-    grid-column-end: 4; 
+    grid-column-end: 5; 
     grid-row-start: 4;
     grid-row-end: 5; 
   }
   
   .btn-Interface{
     grid-column-start: 2;
-    grid-column-end: 4; 
+    grid-column-end: 5; 
     grid-row-start: 1;
     grid-row-end: 2;  
   }
   
   .btn-Identité{
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-column-end: 4; 
     grid-row-start: 3;
     grid-row-end: 4;  
