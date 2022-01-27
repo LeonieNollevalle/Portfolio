@@ -1,3 +1,4 @@
+
 .container-popupimg{
   width: 100vw;
   height: 100vh;
@@ -52,3 +53,14 @@
   align-items: center;
 }
 
+
+
+@media screen and (max-width:800px){
+  .container-popupimg img {
+    position: absolute;
+    z-index: 50;
+    width: 90vw;
+    height: auto;
+  }
+  
+}
