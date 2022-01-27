@@ -22,7 +22,7 @@ const identités = [
     date:2021,
     catégorie:"Identité Visuelle",
     technique:"Esquisse numérique",
-    descritpion:"Création d’une identité visuelle pour le festival art dans les chapelles, basé sur la mise en lumière des artistes menant à la création d’une police de caractères modulaires prélevés dans les vitraux.",
+    descritpion:"Création d’une identité visuelle pour le festival art dans les chapelles, basée sur la mise en lumière des artistes menant à la création d’une police de caractères modulaires prélevés dans les vitraux.",
     images:["https://freight.cargo.site/w/3508/q/94/i/83af5400db117f9e2361dc76340ccbcde30b5de9d6469c89093e757fdb439cbb/typo.jpg",
   "https://freight.cargo.site/w/1756/q/94/i/405c1cc2f8a85992624da67dbcc98c8305f18ed61bf7103caf8805ef489824f0/Test-identite.jpg",
   "https://freight.cargo.site/w/550/q/94/i/914596de3c7b4038c826f4d95dd7f997bd042440b036903f2d3c0e0580e18dbe/recherche-image_.jpg",
