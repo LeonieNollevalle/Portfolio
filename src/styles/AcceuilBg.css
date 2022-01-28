@@ -222,9 +222,8 @@ to {
   .container2 {
     height: 100vh;
     width: 100vw;
-    padding: 30px;
+    padding: 20px;
     margin: 0px;
-    margin-top: 5vh;
 
   }
   
@@ -237,9 +236,8 @@ to {
      grid-template-columns: 24% 24% 24% 24%;
      grid-template-rows: 16% 16% 16% 16% 16% 16% ;
      justify-items: stretch;
-     margin: 3%;
      grid-gap: 1%;
-     margin-top: 25vh;
+     margin-top: 10vh;
    }
   
    .container-btn-home button {
