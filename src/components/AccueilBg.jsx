@@ -1,13 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import bienvenue from '../data.jsx';
 import "../styles/AcceuilBg.css";
 import "../styles/index.css";
+import alternance from '../asset/Noir.png';
 import { Link } from 'react-router-dom';
+import PopUpAltern from './PopUpAltern.jsx';
 const AccueilBg = () => {
-const [i, setI] = React.useState(1)
-const [z, setZ] = React.useState(10)
-const [x, setX] = React.useState(-5)
-const [w, setW] = React.useState(4)
+const [i, setI] = useState(1)
+const [z, setZ] = useState(10)
+const [x, setX] = useState(-5)
+const [w, setW] = useState(4)
+const [pop, setPop] = useState(false);
 
   const handleClickNum = (min, max) => {
      return Math.floor(Math.random() * (max - min)) 
@@ -19,9 +22,17 @@ const handleClick = () => {
   setX(handleClickNum(0, 152,))
   setW(handleClickNum(0, 152,))
 } 
+const handlPop = () => {
+  setPop(!pop);
+}
 
   return (
     <div className="container">
+    <div className ="container-logo" onClick={handlPop}>
+    <img src={alternance} alt=""/>
+    </div>
+    {pop ? <PopUpAltern pop={pop} handlPop={handlPop}/> : null}
+
      <div className="container2">
 
       <p className="motif">
