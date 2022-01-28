@@ -1,0 +1,137 @@
+@media screen and (min-width:800px){
+  .containerall-popup-Alt{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 80;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-popup-Alt{
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 5%;
+  }
+  
+  .container-popup-Alt h1 {
+    font-family:'Open Sans', sans-serif;
+      font-weight: bold;
+      font-size: 100px;
+      
+  }
+  
+  
+  .container-popup-Alt p {
+    width: 50%;
+    height: auto;
+    padding-left: 25%;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .smile{
+    font-weight: lighter;
+    font-family: sans-serif;
+  }
+  .container-popup-Alt h2{
+    font-size: 14px;
+    font-family:'Open Sans', sans-serif;
+    padding-top: 5%;
+    margin-top: 10%;
+    border-top: 2px solid white;
+  
+  }
+  
+  .container-popup-Alt h3{
+    border: white solid 2px;
+    text-align: end;
+    padding-right: 1%;
+    cursor: pointer;
+  }
+  
+  .container-popup-Alt h4{
+    text-align: center;
+    font-size: 14px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: underline;
+    padding-top: 3%;
+  }
+}
+@media screen and (max-width:800px){
+
+.containerall-popup-Alt{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 80;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-popup-Alt{
+  width: 80%;
+  height: 80%;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  padding: 5%;
+}
+
+.container-popup-Alt h1 {
+  font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    
+}
+
+
+.container-popup-Alt p {
+  width: 100%;
+  padding-left: 25%;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.smile{
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+.container-popup-Alt h2{
+  font-size: 14px;
+  font-family:'Open Sans', sans-serif;
+  padding-top: 10%;
+  margin-top: 10%;
+  border-top: 2px solid white;
+
+}
+
+.container-popup-Alt h3{
+  border: white solid 2px;
+  text-align: end;
+  padding-right: 2%;
+  cursor: pointer;
+
+}
+
+.container-popup-Alt h4{
+  text-align: center;
+  font-size: 14px;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 500;
+  text-decoration: underline;
+  padding-top: 5%;
+}
+}

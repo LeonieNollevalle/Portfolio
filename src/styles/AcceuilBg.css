@@ -149,6 +149,36 @@ body {
 .Link {
   text-decoration: none;
 }
+.container-logo{
+  height: 20vh;
+  width: 95vw;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.container-logo img{
+  border-radius: 50%;
+  position: absolute;
+  z-index: 70;
+  padding: 1%;
+ width: 200px;
+ animation-name: Logo;
+ animation: App-logo-spin infinite 20s linear;
+
+}
+.container-logo img:hover {
+  filter: invert(1);
+}
+@keyframes App-logo-spin {
+from {
+  transform: rotate(0deg);
+
+}
+to {
+  transform: rotate(360deg);
+
+}
+}
 }
 
 @media screen and (max-width:800px){
@@ -209,7 +239,7 @@ body {
      justify-items: stretch;
      margin: 3%;
      grid-gap: 1%;
-     margin-top: 15vh;
+     margin-top: 25vh;
    }
   
    .container-btn-home button {
@@ -307,4 +337,32 @@ body {
   .Link {
     text-decoration: none;
   }
+  .container-logo{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .container-logo img{
+    position: absolute;
+    z-index: 70;
+    padding: 1%;
+   width: 100px;
+   animation-name: Logo;
+   animation: App-logo-spin infinite 20s linear;
+
+  }
+  .container-logo img:hover {
+    filter: invert(1);
+  }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+
+  }
+}
+
 }
