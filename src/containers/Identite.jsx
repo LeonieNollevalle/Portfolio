@@ -3,15 +3,15 @@ import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
 import Footer from '../components/Footer';
-import Ariane1 from "../asset/Identités/Ariane1.jpg";
-import Ariane2 from "../asset/Identités/Ariane2.jpg";
-import Ariane3 from "../asset/Identités/Ariane3.jpg";
-import Ariane4 from "../asset/Identités/Ariane4.jpg";
-import ADP1 from "../asset/Identités/ADP1.png";
-import ADP2 from "../asset/Identités/ADP2.jpg";
-import ADP3 from "../asset/Identités/ADP3.jpg";
-import ADP4 from "../asset/Identités/ADP4.jpg";
-import ADP5 from "../asset/Identités/ADP5.jpg";
+import Ariane1 from '../asset/Identités/Ariane1.jpg';
+import Ariane2 from '../asset/Identités/Ariane2.jpg';
+import Ariane3 from '../asset/Identités/Ariane3.jpg';
+import Ariane4 from '../asset/Identités/Ariane4.jpg';
+import ADP1 from '../asset/Identités/ADP1.png';
+import ADP2 from '../asset/Identités/ADP2.jpg';
+import ADP3 from '../asset/Identités/ADP3.jpg';
+import ADP4 from '../asset/Identités/ADP4.jpg';
+import ADP5 from '../asset/Identités/ADP5.jpg';
 
 const identités = [
   {

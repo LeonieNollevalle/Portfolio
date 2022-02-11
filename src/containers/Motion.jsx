@@ -3,18 +3,18 @@ import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
 import Footer from '../components/Footer';
-import FDD1 from "../asset/Motion/FDD1.mp4";
-import FDD3 from "../asset/Motion/FDD2.gif";
-import FDD2 from "../asset/Motion/FDD3.jpg";
-import StillMoving1 from "../asset/Motion/StillMoving1.jpg";
-import StillMoving2 from "../asset/Motion/StillMoving2.jpg";
-import StillMoving3 from "../asset/Motion/StillMoving3.jpg";
-import StillMoving4 from "../asset/Motion/StillMoving4.jpg";
-import StillMoving5 from "../asset/Motion/StillMoving5.jpg";
-import StillMoving6 from "../asset/Motion/StillMoving6.jpg";
-import StillMoving7 from "../asset/Motion/StillMoving7.jpg";
-import StillMoving8 from "../asset/Motion/StillMoving8.gif";
-import StillMoving9 from "../asset/Motion/StillMoving9.mp4";
+import FDD1 from '../asset/Motion/FDD1.mp4';
+import FDD3 from '../asset/Motion/FDD2.gif';
+import FDD2 from '../asset/Motion/FDD3.jpg';
+import StillMoving1 from '../asset/Motion/StillMoving1.jpg';
+import StillMoving2 from '../asset/Motion/StillMoving2.jpg';
+import StillMoving3 from '../asset/Motion/StillMoving3.jpg';
+import StillMoving4 from '../asset/Motion/StillMoving4.jpg';
+import StillMoving5 from '../asset/Motion/StillMoving5.jpg';
+import StillMoving6 from '../asset/Motion/StillMoving6.jpg';
+import StillMoving7 from '../asset/Motion/StillMoving7.jpg';
+import StillMoving8 from '../asset/Motion/StillMoving8.gif';
+import StillMoving9 from '../asset/Motion/StillMoving9.mp4';
 
 const motions = [
  
