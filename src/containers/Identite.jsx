@@ -3,11 +3,7 @@ import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
 import Footer from '../components/Footer';
-import ADP1 from '../asset/Identités/ADP1.png';
-import ADP2 from '../asset/Identités/ADP2.jpg';
-import ADP3 from '../asset/Identités/ADP3.jpg';
-import ADP4 from '../asset/Identités/ADP4.jpg';
-import ADP5 from '../asset/Identités/ADP5.jpg';
+
 
 
 const identités = [
@@ -26,7 +22,7 @@ const identités = [
     catégorie:"Identité Visuelle",
     technique:"Esquisse numérique",
     descritpion:"Création d’une identité visuelle pour le festival art dans les chapelles, basée sur la mise en lumière des artistes menant à la création d’une police de caractères modulaires prélevés dans les vitraux.",
-    images:[ADP1, ADP2, ADP3, ADP4, ADP5]
+    images:["https://i.pinimg.com/originals/87/ae/4d/87ae4d624fd25e627f5494118f257877.jpg", "https://i.pinimg.com/564x/76/4e/6b/764e6b8045faa14c0935291515d61a4a.jpg", "https://i.pinimg.com/564x/72/17/a1/7217a1860e083b0705986c5436fcebe3.jpg", "https://i.pinimg.com/564x/72/17/a1/7217a1860e083b0705986c5436fcebe3.jpg", "https://i.pinimg.com/originals/ef/b6/3a/efb63a43858557ac401ee9335f6a69ad.jpg"]
    
   },
 ];
