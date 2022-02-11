@@ -11,7 +11,6 @@ import ADP5 from '../asset/Identités/ADP5.jpg';
 import Ariane1 from '../asset/Identités/Ariane1.jpg';
 import Ariane2 from '../asset/Identités/Ariane2.jpg';
 import Ariane3 from '../asset/Identités/Ariane3.jpg';
-import Ariane4 from '../asset/Identités/Ariane4.jpg';
 
 const identités = [
   {
@@ -20,7 +19,7 @@ const identités = [
     catégorie:"Identité Visuelle-Stage/Ben&Jo",
     technique:"Esquisse numérique",
     descritpion:"Proposition d’identité visuelle réalisée durant mon stage pour l’entreprise Semia incubation, qui est une entreprise d’incubation de start-up. Une identité réalisée autour du fil d’ariane.",
-    images:[Ariane1, Ariane2, Ariane3, Ariane4]
+    images:[Ariane1, Ariane2, Ariane3, "https://i.pinimg.com/originals/1d/da/7c/1dda7c5497390064de2897989ced2b0c.jpg"]
    
   },
   {
