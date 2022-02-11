@@ -3,6 +3,19 @@ import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
 import Footer from '../components/Footer';
+import FDD1 from '../asset/Motion/FDD1.mp4';
+import FDD3 from '../asset/Motion/FDD2.gif';
+import FDD2 from '../asset/Motion/FDD3.jpg';
+import StillMoving1 from '../asset/Motion/StillMoving1.jpg';
+import StillMoving2 from '../asset/Motion/StillMoving2.jpg';
+import StillMoving3 from '../asset/Motion/StillMoving3.jpg';
+import StillMoving4 from '../asset/Motion/StillMoving4.jpg';
+import StillMoving5 from '../asset/Motion/StillMoving5.jpg';
+import StillMoving6 from '../asset/Motion/StillMoving6.jpg';
+import StillMoving7 from '../asset/Motion/StillMoving7.jpg';
+import StillMoving8 from '../asset/Motion/StillMoving8.gif';
+import StillMoving9 from '../asset/Motion/StillMoving9.mp4';
+
 const motions = [
  
   {
@@ -11,9 +24,8 @@ const motions = [
     catégorie:"Workshop",
     technique:"Affiche animée",
     descritpion:"Workshop réalisé avec le Jardin graphique sur la thématique de la danse à partir d’univers colorimétriques imposés. À la fin de ce workshop une affiche animée a été réalisée.",
-    images:["https://freight.cargo.site/t/original/i/19512e18c0474849731ceafc3b815a468b68bb5d2ca99ad2627324278696d3dc/teste-pour-moi_.jpg",
-  "https://freight.cargo.site/t/original/i/c21c614a2a4d38cf079ec6b02d659424238ead85b622d90f97dc27472cffafb9/Composition-1_1.gif"],
-    videos:"https://files.cargocollective.com/c861648/c-ca.mp4"
+    images:[FDD3,FDD2],
+    videos:FDD1
    
   },
   {
@@ -22,15 +34,8 @@ const motions = [
     catégorie:"Workshop",
     technique:"Motion",
     descritpion:"Durant ce Workshop il nous a été demandé de prélever des éléments dans des livres qui allaient être jetés et qui étaient donc par conséquent “saccageables”.  Ces éléments nous ont par la suite aidés à monter une vidéo, avec comme fil narratif un haïku.",
-    images:["https://freight.cargo.site/t/original/i/17507c4b6c6fdd96cd2f303a53e1ec06cfa0d0afd71cadb38c2250a8b5425b0f/1.jpg",
-    "https://freight.cargo.site/t/original/i/7d1a68e2eac9e6f2ddd926029c3867c0d88f331bcfc5cae84679df03352e4bf0/DSC00627.jpg",
-  "https://freight.cargo.site/t/original/i/cee7e40ef0f16e161c7434b52704929c79e6289c28ac7bd234357c26b03d72ab/DSC09046.jpg",
-"https://freight.cargo.site/t/original/i/e6bab70624f54f2fb51ed87de3e5155282d7f7c2097af8bcf0a2d03be8c1d7f2/Ma-partie.gif",
-"https://freight.cargo.site/t/original/i/9282b2573133897266a2b939095e4da0cf9ef3501b6ad329307f2d0928918389/25.jpg",
-"https://freight.cargo.site/t/original/i/b10a95fe9f94ea634fc2260ca097407a5c060239afad954d337b16e5704bdbdc/11.jpg",
-"https://freight.cargo.site/t/original/i/9bfd2cb942e9655d067ef0b47bd464bb21215523696260e622224d2e587fe529/2.jpg",
-"https://freight.cargo.site/t/original/i/e5ed601b2af94a25d1402fa834dcf6aa1bb48b15e0c26fad9eaec2061f305bbe/10.jpg"],
-    videos:"https://files.cargocollective.com/c861648/stillmoving.mp4"
+    images:[StillMoving1, StillMoving2, StillMoving3, StillMoving4, StillMoving5, StillMoving6, StillMoving7, StillMoving8],
+    videos:StillMoving9
    
   },
 ];
