@@ -5,7 +5,8 @@ import "../styles/index.css";
 import alternance from '../asset/Noir.png';
 import { Link } from 'react-router-dom';
 import PopUpAltern from './PopUpAltern.jsx';
-const AccueilBg = () => {
+import ContactFrom from './ContactForm.jsx';
+const AccueilBg = ({contact, setContact}) => {
 const [i, setI] = useState(1)
 const [z, setZ] = useState(10)
 const [x, setX] = useState(-5)
@@ -26,13 +27,14 @@ const handlPop = () => {
   setPop(!pop);
 }
 
+
   return (
     <div className="container">
     <div className ="container-logo" onClick={handlPop}>
     <img src={alternance} alt=""/>
     </div>
-    {pop ? <PopUpAltern pop={pop} handlPop={handlPop}/> : null}
-
+    {pop ? <PopUpAltern pop={pop} handlPop={handlPop} contact={contact} setContact={setContact}/> : null}
+    <ContactFrom contact={contact} setContact={setContact} />
      <div className="container2">
 
       <p className="motif">
