@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/catégorie.css';
 import Menus from '../components/Menus';
 import Projet from './Projet';
-import mano from '../asset/VidéoManoMano.mov';
+import mano from '../asset/Interface/Mano2.mp4';
 import Footer from '../components/Footer';
 import JDP1 from '../asset/Interface/JDP.png';
 import JDP2 from '../asset/Interface/JDP.mp4';
